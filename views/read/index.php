@@ -132,6 +132,7 @@ if (!empty($info)) {
 	                <div class="input-widget">
 	                    <input class="site-input" type="text" name="names" placeholder="Names" required>
 	                    <input type="hidden" name="post-id" value="<?php echo $this->id; ?>">
+                        <input type="hidden" name="auth" value="<?php echo $this->Authtoken; ?>">
 	                </div>
 	                <div class="input-widget">
 	                    <textarea class="site-textarea" name="content" placeholder="Your comment" required></textarea>

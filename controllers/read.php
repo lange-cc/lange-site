@@ -47,7 +47,7 @@ class read extends controller
         } else {
             $proced = new \stdClass();
             $proced->status = "fail";
-            $proced->message = "Make sure author was Selected";
+            $proced->message = "Make sure All field is filled";
             $myJSON = json_encode($proced);
             echo $myJSON;
         }
