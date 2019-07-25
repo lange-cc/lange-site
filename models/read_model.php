@@ -13,7 +13,7 @@ class read_model extends model
     public function addnew($name, $content, $date, $id)
     {
         $proced = new \stdClass();
-        $command = $this->db->prepare("INSERT INTO `mvc_comment` (`id`, `post_id`, `name`, `content`, `added_date`) VALUES (NULL, :id, :name, :content, DATE('CURRENT_TIMESTAMP()'))");
+        $command = $this->db->prepare("INSERT INTO `mvc_comment` (`id`, `post_id`, `name`, `content`) VALUES (NULL, :id, :name, :content)");
         if ($command->execute(array(
             ':id' => $id,
             ':name' => $name,
