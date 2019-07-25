@@ -1,0 +1,58 @@
+/* CSS Document */
+
+.ekScrollable
+  {
+	overflow: hidden;
+	
+	.ekScrollableConteneur
+	  {
+		overflow: hidden;
+		float: left;
+		
+		.ekScrollableContenu 
+		  {
+			padding-bottom: @gradientHeight/3;
+			p {margin: 0 0 15px 0;}
+		  }
+	  }
+	.fondScroll
+	  {
+		width: @widthScrollBar;
+		float: right;
+		-moz-border-radius: @roundingScrollBar;
+		border-radius: @roundingScrollBar;
+	
+		background-color: @colorScrollBar;
+			
+		.btnScrollCont
+		  {
+			width: @widthScrollBtn;
+			  
+			cursor: pointer;
+			
+			.btnScroll
+			  {
+				width: @widthScrollBtn;
+				margin: 0 ( @widthScrollBar - @widthScrollBtn ) / 2;
+				background-color: @colorScrollBtn;
+				-moz-border-radius: @roundingScrollBtn;
+				border-radius: @roundingScrollBtn;
+			  }
+		  }
+	  }
+	.fondufin
+	  {
+		position: relative;
+		.degrade
+		  {
+			height: @gradientHeight;
+			background: -moz-linear-gradient(top, rgba(@gradientColorR,@gradientColorG,@gradientColorB,0) 0%, rgba(@gradientColorR,@gradientColorG,@gradientColorB,1) 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,0)), color-stop(100%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,1)));
+			background: -webkit-linear-gradient(top, rgba(@gradientColorR,@gradientColorG,@gradientColorB,0) 0%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,1) 100%);
+			background: -o-linear-gradient(top, rgba(@gradientColorR,@gradientColorG,@gradientColorB,0) 0%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,1) 100%);
+			background: -ms-linear-gradient(top, rgba(@gradientColorR,@gradientColorG,@gradientColorB,0) 0%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,1) 100%);
+			background: linear-gradient(to bottom, rgba(@gradientColorR,@gradientColorG,@gradientColorB,0) 0%,rgba(@gradientColorR,@gradientColorG,@gradientColorB,1) 100%);
+		  }
+	  }
+  }
+

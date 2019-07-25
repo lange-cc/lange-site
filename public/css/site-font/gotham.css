@@ -1,0 +1,32 @@
+
+@font-face {
+	font-family: 'GothamPro-Light';
+	src: url('light/GothamPro-Light.eot?') format('eot'), 
+	     url('light/GothamPro-Light.otf')  format('opentype'),
+	     url('light/GothamPro-Light.woff') format('woff'), 
+	     url('light/GothamPro-Light.ttf')  format('truetype'),
+	     url('light/GothamPro-Light.svg#GothamPro-Light') format('svg');
+}
+
+@font-face {
+	font-family: 'GothamPro-Bold';
+	src: url('bold/GothamPro-Bold.eot?') format('eot'), 
+	     url('bold/GothamPro-Bold.otf')  format('opentype'),
+	     url('bold/GothamPro-Bold.woff') format('woff'), 
+	     url('bold/GothamPro-Bold.ttf')  format('truetype'),
+	     url('bold/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'GothamPro-Medium';
+	src: url('medium/GothamPro-Medium.eot?') format('eot'), 
+	     url('medium/GothamPro-Medium.otf')  format('opentype'),
+	     url('medium/GothamPro-Medium.woff') format('woff'), 
+	     url('medium/GothamPro-Medium.ttf')  format('truetype'),
+	     url('medium/GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+}
+
+ @font-face {
+    font-family: 'GothamPro-Thin';
+    src: url('thin/Gotham-Thin.otf');
+}
